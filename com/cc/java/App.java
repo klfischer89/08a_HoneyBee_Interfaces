@@ -26,13 +26,13 @@ public class App {
         output(bee.fly());
         output("-------------------");
     }
-
+    // Overloading
     private static void pollObj(Bird obj){
         output(obj.hasFeathers());
         output(obj.fly());
         output("-------------------");
     }
-
+    // calling default method from Flyable
     private static void isFlyable(Flyable fly){
         output(fly.canFly());
         output("+++++++++++++++++++");
